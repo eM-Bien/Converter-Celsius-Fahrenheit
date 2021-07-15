@@ -1,0 +1,79 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background: linear-gradient(60deg, #2a2a72 0%, #009ffd 74%);
+}
+
+label {
+  font-size: 5rem;
+  letter-spacing: .3rem;
+}
+
+input {
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  width: 35rem;
+  height: 6rem;
+  font-size: 2rem;
+  color: #6264d6;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: .5rem 2rem 3rem #092686a6;
+          box-shadow: .5rem 2rem 3rem #092686a6;
+}
+
+p {
+  font-size: 2rem;
+  color: #3bffde;
+  letter-spacing: .3rem;
+}
+
+button {
+  margin: 4rem;
+  width: 20rem;
+  height: 7rem;
+  font-size: 2rem;
+  color: #160abe;
+  letter-spacing: .3rem;
+  border-radius: 2rem;
+  border: none;
+  -webkit-box-shadow: .5rem 2rem 3rem #092686a6;
+          box-shadow: .5rem 2rem 3rem #092686a6;
+  background-color: #3bffde;
+  overflow: hidden;
+  -webkit-transition: letter-spacing .3s, background-color .3s;
+  transition: letter-spacing .3s, background-color .3s;
+}
+
+button:hover {
+  letter-spacing: .4rem;
+  cursor: pointer;
+  background-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
